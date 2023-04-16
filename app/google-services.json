@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "147793511737",
+    "project_id": "rccarapp-db69c",
+    "storage_bucket": "rccarapp-db69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147793511737:android:98d53a8e22ad14a86214e8",
+        "android_client_info": {
+          "package_name": "com.example.rccarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147793511737-muj3rgaoehumi1gi6dndn51jn2l2hj2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rccarapp",
+            "certificate_hash": "c341631081d6b30f4e3bb12b719f05309542cb56"
+          }
+        },
+        {
+          "client_id": "147793511737-uqfrjk7tstdb8h6lcgpgn6d20o3258l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD40uRol64whDWBMUNTGKh61QKquSi-OoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147793511737-uqfrjk7tstdb8h6lcgpgn6d20o3258l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registry_nav_graph"
+    app:startDestination="@id/splashFrag">
+
+    <fragment
+        android:id="@+id/splashFrag"
+        android:name="com.example.rccarapp.hosts.SplashFrag"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFrag_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:exitAnim="@anim/splash_exit"
+            app:popUpTo="@id/splashFrag"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFrag_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.rccarapp.hosts.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_registerEmail"
+            app:destination="@id/registerEmail" />
+        <action
+            android:id="@+id/action_registerFragment_to_registerPhoneFragment"
+            app:destination="@id/registerPhoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerEmail"
+        android:name="com.example.rccarapp.register.RegisterEmailFragment"
+        android:label="fragment_register_email"
+        tools:layout="@layout/fragment_register_email" >
+        <action
+            android:id="@+id/action_registerEmail_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.rccarapp.hosts.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_savedImagesFragment"
+            app:destination="@id/savedImagesFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerPhoneFragment"
+        android:name="com.example.rccarapp.register.RegisterPhoneFragment"
+        android:label="RegisterPhoneFragment" >
+        <action
+            android:id="@+id/action_registerPhoneFragment_to_enterOtpFragment"
+            app:destination="@id/enterOtpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterOtpFragment"
+        android:name="com.example.rccarapp.register.EnterOtpFragment"
+        android:label="EnterOtpFragment" >
+        <action
+            android:id="@+id/action_enterOtpFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedImagesFragment"
+        android:name="com.example.rccarapp.SavedImagesFragment"
+        android:label="fragment_saved_images_page"
+        tools:layout="@layout/fragment_saved_images_page" />
+</navigation>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">rcCarApp</string>
+    <string name="sign_in_using_email">Register using email</string>
+    <string name="sign_in_using_phone_number">Register using phone number</string>
+    <string name="your_email">Enter Email</string>
+    <string name="your_password">Enter Password</string>
+    <string name="transition1_cvEmail_to_tvEmail">transition1_cvEmail_to_tvEmail</string>
+    <string name="transition2_cvPhone_to_tvPass">transition2_cvPhone_to_tvPass</string>
+    <string name="transition3_tvEmail_from_cvEmail">transition3_tvEmail_from_cvEmail</string>
+    <string name="transition4_tvPassword_from_cvPassword">transition4_tvPassword_from_cvPassword</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_continue">Continue</string>
+    <string name="image">image</string>
+    <string name="you_will_receive_a_six_ndigit_code">You will receive a six digit code</string>
+    <string name="enter_your_phone">Enter your phone number</string>
+    <string name="otp_view">otp</string>
+    <string name="verify_and_continue">Verify and Continue</string>
+    <string name="code_is_sent_to_the_number">Code is sent to</string>
+    <string name="didn_t_get_code">didn\'t get code?</string>
+    <string name="send_it_again">Send it again</string>
+</resources>
